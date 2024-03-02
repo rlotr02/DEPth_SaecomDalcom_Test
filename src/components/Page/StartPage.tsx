@@ -88,7 +88,9 @@ const StartBtn = styled.button`
   color: #000000;
   transition: all 0.2s ease;
 
-  &:hover {
-    transform: translateY(-2px);
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      transform: translateY(-2px);
+    }
   }
 `;

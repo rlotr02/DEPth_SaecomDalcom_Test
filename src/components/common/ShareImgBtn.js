@@ -35,4 +35,11 @@ const ShareBtn = styled.button`
   font-size: 20px;
   font-weight: 400;
   color: #000000;
+  transition: all 0.2s ease;
+
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      transform: translateY(-2px);
+    }
+  }
 `;
