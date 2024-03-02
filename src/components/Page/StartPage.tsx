@@ -56,7 +56,7 @@ const HeroSection = styled.div`
   > h1 {
     background-color: #fff6a9;
     border: 1px solid #402a19;
-    padding: 8.98px 0;
+    padding: 10.5px 0 8px;
     margin-bottom: 7.67px;
     border-radius: 2px;
 
