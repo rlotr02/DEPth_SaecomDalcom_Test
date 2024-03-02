@@ -85,14 +85,14 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   text-align: center;
-  height: 100vh;
   white-space: pre-line;
 
   > div {
-    margin-top: 54px;
+    margin-top: 30px;
     width: 342px;
 
     @media screen and (min-width: 750px) {
+      margin-top: 54px;
       zoom: 1.5;
     }
   }
@@ -131,6 +131,7 @@ const DesWrap = styled.div`
   font-size: 15px;
   font-weight: 400;
   line-height: 20px;
+  color: #000000;
   text-align: left;
 `;
 
@@ -144,4 +145,9 @@ const RestartBtn = styled.button`
   font-family: GmarketSansMedium;
   font-size: 20px;
   font-weight: 400;
+  color: #000000;
+
+  @media screen and (min-width: 750px) {
+    margin-bottom: 50px;
+  }
 `;

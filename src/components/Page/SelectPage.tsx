@@ -41,11 +41,15 @@ export default SelectPage;
 
 const Container = styled.div`
   display: flex;
+  position: fixed;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   white-space: pre-line;
 
   > div {
@@ -65,6 +69,7 @@ const Question = styled.div<{ $marginbottom: number; $fontsize: boolean }>`
   font-size: ${(props) => (props.$fontsize ? 15 : 18)}px;
   font-weight: 400;
   line-height: 25px;
+  color: #000000;
 `;
 
 const Answer1 = styled.button`
@@ -79,6 +84,7 @@ const Answer1 = styled.button`
   font-size: 15px;
   font-weight: 400;
   line-height: 20px;
+  color: #000000;
   transition: all 0.2s ease;
 
   &:hover {
@@ -97,6 +103,7 @@ const Answer2 = styled.button`
   font-size: 15px;
   font-weight: 400;
   line-height: 20px;
+  color: #000000;
   transition: all 0.2s ease;
 
   &:hover {

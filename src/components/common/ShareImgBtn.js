@@ -34,4 +34,5 @@ const ShareBtn = styled.button`
   font-family: GmarketSansMedium;
   font-size: 20px;
   font-weight: 400;
+  color: #000000;
 `;

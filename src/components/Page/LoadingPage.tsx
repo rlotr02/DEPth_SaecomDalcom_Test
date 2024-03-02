@@ -29,12 +29,15 @@ export default LoadingPage;
 
 const Container = styled.div`
   display: flex;
+  position: fixed;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  height: 100vh;
-  white-space: pre-line;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   cursor: wait;
 
   > div {

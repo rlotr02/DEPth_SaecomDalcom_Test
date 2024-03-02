@@ -29,11 +29,15 @@ export default StartPage;
 
 const Container = styled.div`
   display: flex;
+  position: fixed;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 
   > div {
     width: 342px;
@@ -59,6 +63,7 @@ const HeroSection = styled.div`
     font-family: GmarketSansMedium;
     font-size: 31px;
     font-weight: 400;
+    color: #402a19;
   }
 
   > img {
@@ -80,7 +85,7 @@ const StartBtn = styled.button`
   font-size: 20px;
   font-weight: 400;
   padding: 7.5px 0;
-  color: #000;
+  color: #000000;
   transition: all 0.2s ease;
 
   &:hover {
