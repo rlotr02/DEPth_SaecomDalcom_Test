@@ -93,8 +93,7 @@ const Container = styled.div`
     width: 342px;
 
     @media screen and (min-width: 750px) {
-      transform: scale(1.5);
-      transform-origin: top;
+      zoom: 1.5;
     }
   }
 `;
