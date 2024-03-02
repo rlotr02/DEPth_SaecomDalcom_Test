@@ -35,6 +35,7 @@ const Container = styled.div`
   text-align: center;
   height: 100vh;
   white-space: pre-line;
+  cursor: wait;
 
   > div {
     @media screen and (min-width: 750px) {
