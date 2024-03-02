@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import styled from "styled-components";
 import { useRecoilState, useSetRecoilState } from "recoil";
 import { pageState, resultState } from "../common/recoil";
@@ -12,12 +12,17 @@ const ResultPage: React.FC = () => {
   const setPage = useSetRecoilState(pageState);
   const [type, setType] = useState<number | null>(null);
   const [isLoading, setIsLoading] = useState(false);
+  const timeoutId = useRef<number | null>(null);
 
   useEffect(() => {
     setIsLoading(true);
     findResult(result);
 
-    setTimeout(() => {
+    if (timeoutId.current !== null) {
+      clearTimeout(timeoutId.current);
+    }
+
+    timeoutId.current = window.setTimeout(() => {
       setIsLoading(false);
     }, 1200);
   }, [result]);
