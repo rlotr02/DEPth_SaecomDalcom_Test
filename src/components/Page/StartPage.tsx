@@ -17,7 +17,7 @@ const StartPage: React.FC = () => {
           <img src={RESULT_IMAGES[1]} alt="레모네이드" />
           <img src={RESULT_IMAGES[2]} alt="포도" />
           <img src={RESULT_IMAGES[3]} alt="복숭아" />
-          <DEPth />
+          <DEPth onClick={() => window.open("https://depth-mju.co.kr")} />
         </HeroSection>
         <StartBtn onClick={() => setPage(1)}>테스트 시작하기</StartBtn>
       </div>
@@ -73,6 +73,7 @@ const HeroSection = styled.div`
   > svg {
     display: block;
     margin-left: auto;
+    cursor: pointer;
   }
 `;
 
