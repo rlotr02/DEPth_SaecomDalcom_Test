@@ -12,7 +12,7 @@ const StartPage: React.FC = () => {
     <Container>
       <div>
         <HeroSection>
-          <h1>새콤달콤 유형 테스트</h1>
+          <h1>뎁콤달콤 유형 테스트</h1>
           <img src={RESULT_IMAGES[0]} alt="딸기" />
           <img src={RESULT_IMAGES[1]} alt="레모네이드" />
           <img src={RESULT_IMAGES[2]} alt="포도" />
