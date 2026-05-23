@@ -1,9 +1,4 @@
-<div align="center">
-
 ![뎁콤달콤 테스트](https://github.com/rlotr02/DEPth_SaecomDalcom_Test/assets/72345074/558ddeaf-7019-4f73-ad15-5625a7832d19)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Frlotr02%2FDEPth_SaecomDalcom_Test&count_bg=%2374D009&title_bg=%23F70C07&icon=github.svg&icon_color=%23FEE7E7&title=%EC%83%88%EC%BD%A4%EB%8B%AC%EC%BD%A4+%ED%85%8C%EC%8A%A4%ED%8A%B8&edge_flat=false)](https://hits.seeyoufarm.com)
-
-</div>
 
 # 뎁콤달콤 테스트
 > **뎁콤달콤 테스트 바로가기 :** [https://depth-saecomdalcom-test.netlify.app](https://depth-saecomdalcom-test.netlify.app)
@@ -14,11 +9,19 @@
 <br>
 
 ## ⏳ 개발 기간
-> **2024. 03. 03 ~ 2024. 03. 03**
+> **2024. 03. 03 ~ 2024. 03. 03 (1일)**
 <br>
 
 ## 🛠 기술 스택
-> <img src="https://img.shields.io/badge/Typescript-3178C6?style=flat-square&logo=Typescript&logoColor=white"/> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/> <img src="https://img.shields.io/badge/Styled Components-DB7093?style=flat-square&logo=styled-components&logoColor=white"/> <img src="https://img.shields.io/badge/Recoil-3578E5?style=flat-square&logo=recoil&logoColor=white"/>
+> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/> <img src="https://img.shields.io/badge/Typescript-3178C6?style=flat-square&logo=Typescript&logoColor=white"/> <img src="https://img.shields.io/badge/Styled Components-DB7093?style=flat-square&logo=styled-components&logoColor=white"/> <img src="https://img.shields.io/badge/Recoil-3578E5?style=flat-square&logo=recoil&logoColor=white"/>
+<br>
+
+## 🔑 핵심 구현
+- 초기 레포지토리 세팅부터 빌드 및 Netlify 배포까지의 프론트엔드 전 과정 단독 수행
+- html2canvas 라이브러리를 활용하여 사용자의 테스트 결과 화면을 이미지 파일로 저장하는 기능 구현
+- Recoil 전역 상태 관리를 활용한 입력값 저장 및 조건별 매칭 결과 컴포넌트 렌더링
+- 결과 연산 및 화면 진입 전 데이터 처리를 위한 대기 로딩 화면 구현
+- Styled-components 기반의 컴포넌트 스타일링 및 모바일 디바이스에 최적화된 반응형 레이아웃 구축
 <br>
 
 ## 📃 Commit Message Convention
